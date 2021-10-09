@@ -1,0 +1,33 @@
+/* Home page css start */
+.home-padding{
+    padding: 20px 0;
+}
+.home-page p{
+    margin-top: 19px;
+}
+.home-page .drop-select{
+    padding: 9px 0px;
+}
+/* Home page css End */
+
+/* Task page css start */
+.task-page .container {
+    padding: 2rem 0rem;
+  }
+  
+  .task-page h4 {
+    margin: 2rem 0rem 1rem;
+  }
+  
+  .task-page .table-image {
+    td, th {
+      vertical-align: middle;
+    }
+  }
+/* Task page css End */
+
+/* start user page css */
+.user-page{
+    padding: 20px 0;
+}
+/* user page css End */
