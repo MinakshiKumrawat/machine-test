@@ -6,7 +6,7 @@ const Navigation = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
           <Link className="navbar-brand" to="/home">
-            LOGOO
+            LOGO
           </Link>
           <button
             className="navbar-toggler"
