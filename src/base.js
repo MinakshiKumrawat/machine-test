@@ -1,9 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
     Route, Redirect, Switch, BrowserRouter,
   } from 'react-router-dom';
 import Navigation from './comonents/navigation';
 import Home from './pages/home';
+import Task from './pages/task';
+import User from './pages/user';
 
 
 const Base = () => {
@@ -12,15 +14,21 @@ const Base = () => {
         <header>
            <Navigation />
         </header>
-         <div className="content">
-                <BrowserRouter>
+         <div className="container">
+               
                 <Switch>
                     <Route path="/home" >
-                    <Home />
+                      <Home />
+                    </Route>
+                    <Route path="/task" >
+                      <Task />
+                    </Route>
+                    <Route path="/user" >
+                      <User />
                     </Route>
                     <Redirect to ="/home" />
                 </Switch>
-            </BrowserRouter>
+           
          </div>
        </div>
     </>
