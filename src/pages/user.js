@@ -1,5 +1,6 @@
 const User = () => {
     return<>
+    <h1>user</h1>
       <div className="user-page-wrap user-page">
       <form class="form-horizontal" action="/action_page.php">
   <div class="form-group">
