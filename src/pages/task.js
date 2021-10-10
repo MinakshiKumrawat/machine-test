@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
+import $ from "jquery";
 
 const Task = () => {
   const initialUserState = {
@@ -15,7 +16,9 @@ useEffect(() => {
         const {data} = await axios(`http://jsonplaceholder.typicode.com/todos`)
         setTask(data);
     }
-    getUser()
+    getUser();
+
+ 
 },[])
 
     return tasks.loading ? (
@@ -35,7 +38,7 @@ useEffect(() => {
                   <td>{task.title}</td>
                   <td>{task.completed.toString()}</td>
                   <td>
-                  <button type="button" className="btn btn-danger">Delete</button>
+                  <button type="button" className="btn btn-danger remove">Delete</button>
                   </td>
                 </tr>
                  )
