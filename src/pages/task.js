@@ -38,7 +38,7 @@ useEffect(() => {
                   <td>{task.title}</td>
                   <td>{task.completed.toString()}</td>
                   <td>
-                  <button type="button" className="btn btn-danger remove">Delete</button>
+                  <button type="button" className="btn btn-danger remove ">Delete</button>
                   </td>
                 </tr>
                  )
