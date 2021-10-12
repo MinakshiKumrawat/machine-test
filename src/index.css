@@ -45,7 +45,14 @@
 
 /* start user page css */
 .user-page-wrap{
-   
+  
+  max-width: 318px;
+  margin: auto;
+  box-shadow: 0px 0px 3px 0px rgb(0 0 0 / 38%);
+  margin-top: 100px;
+  padding: 20px;
+  padding-bottom: 50px;
+
 }
 
 .user-page-wrap .form-group{
@@ -66,15 +73,43 @@
   padding: 0 10px;
   height: 38px;
   border-radius: 5px;
+  width: 100%;
 }
 .user-page-wrap .btn-wrap{
   margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
 }
 .user-page-wrap .btn-wrap button{
+  padding: 10px 4px;
   border: 2px solid #d7d7d7;
-  margin-right: 15px;
+  font-size: 14px;
+  line-height: 24px;
+  height: auto;
+  width: 49%;
+
 }
 .user-page-wrap .btn-wrap button:hover{
   background-color: #d7d7d7;
 }
+
+
+.login-page .btn-wrap{
+  margin-top: 26px;
+  display: block;
+}
+.login-page .btn-wrap button{
+  border: 2px solid #d7d7d7;
+  margin-right: 15px;
+  width: 100%;
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+  outline: none;
+}
+.login-page .btn-wrap button:hover{
+  background-color: #224265;
+  border-color: #224265;
+}
+
 /* user page css End */

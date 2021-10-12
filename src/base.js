@@ -125,7 +125,7 @@ const savePasswordHendler = (e) => {
            :
             <>
               <div className="container">
-                <div className="user-page-wrap section-padding">
+                <div className="user-page-wrap login-page section-padding">
                   <form className="form-horizontal" onSubmit={loginHendler} method="POST">
                       <div className="form-group">
                         <label className="control-label">User Name:</label>
